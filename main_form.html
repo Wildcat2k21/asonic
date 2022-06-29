@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Form</title>
+        <meta charset='utf-8'></head>
+        <link rel='stylesheet' type='text/css' href='style/main.css'>
+    </head>
+    <body>
+        <div id='extension-logo' class='-button-2jk mdown-2jk' name='extension-logo'></div>
+        <div id='-wrapper-2jk'>
+
+        <!-- <div id='backg-man-ch-2jk'>
+            <div id='manual-choice-2jk'>
+        <div class='header-ch-2jk'>
+            <span id='header-ch-2jk'>Какой это язык ?</span>
+        </div>
+        <div class='body-ch-2jk'>
+        <span>
+            Не удалось автоматически определить данный язык.
+            Чтобы продолжить выберите нужный язык в выпадаюем списке.
+        </span>
+        <div class='body-ch-select-voice-2jk'>
+            <select class='sel-manlan-2jk' id='select-lan-2jk'>
+                <option value=''>Выбрать язык</option>
+                <option value='en'>Английский</option>
+                <option value='ar'>Арабский</option>
+                <option value='hu'>Венгерский</option>
+                <option value='nl'>Голландский</option>
+                <option value='da'>Датский</option>
+                <option value='es'>Испанский</option>
+                <option value='it'>Итальянский</option>
+                <option value='ca'>Каталонский</option>
+                <option value='zh'>Китайский</option>
+                <option value='ko'>Корейский</option>
+                <option value='de'>Немецкий</option>
+                <option value='no'>Норвежский</option>
+                <option value='pt'>Партугальский</option>
+                <option value='pl'>Польский</option>
+                <option value='ru'>Русский</option>
+                <option value='tr'>Турецкий</option>
+                <option value='fi'>Финский</option>
+                <option value='fr'>Французкий</option>
+                <option value='cs'>Чешский</option>
+                <option value='sv'>Шведский</option>
+                <option value='ja'>Японский</option>
+            </select>
+            <input id='man-v-detect-canc-2jk' value='Отменить' type='button'>
+            </div>
+        
+        </div>
+        </div>
+        </div> -->
+
+        <div id='error-2jk'>
+            <span id='message-info-2jk'>Функция временно недоступна. Попробуйте позже.</span>
+            <div id='mess-icon-2jk'></div>
+        </div>
+        <div id='-tab-2jk'>
+            <div id='-topbar-2jk' title='зажмите чтобы переместить' class='mdown-2jk'>
+                <div class='-top-toolbar-2jk'>
+                    <div class='-top-toolbar-content-2jk'>
+                        <div class='-button-2jk mdown-2jk' title='Свернуть' name='down'></div>
+                        <div class='-button-2jk mdown-2jk' title='Закрыть' name='close'></div>
+                    </div>
+                </div>
+            </div>
+            <div class='-content-2jk'>
+                <div class='-toolbar-2jk'>
+                    <div class='-toolbar-content-2jk'>
+                        <div class='-button-2jk' title='Вернуться к исходному тексту'  name='fandb'></div>
+                        <div class='-button-2jk' title='Режим ввода текста'  name='text-select'></div>
+                        <div class='-button-2jk' title='Показать/скрыть элементы управления' name='record'></div>
+                        <div class='-button-2jk' title='Перевести выбранный текст' name='translate-word'>
+                            <div class='language-tab-2jk'>
+                                <div class='arrow-2jk'></div>
+                                <div class='lan-content-2jk'>
+                                    <div class='lan-opt-2jk'>
+                                        <span>Перевести на</span>
+                                        <select id='select-lan-2jk'>
+                                            <option value='' >Выбрать язык</option>
+                                            <option value='en' >Английский</option>
+                                            <option value='hu' >Венгерский</option>
+                                            <option value='nl' >Голландский</option>
+                                            <option value='da' >Датский</option>
+                                            <option value='es' >Испанский</option>
+                                            <option value='it' >Итальянский</option>
+                                            <option value='ca' >Каталонский</option>
+                                            <option value='zh' >Китайский</option>
+                                            <option value='ko' >Корейский</option>
+                                            <option value='de' >Немецкий</option>
+                                            <option value='no' >Норвежский</option>
+                                            <option value='pt' >Партугальский</option>
+                                            <option value='pl' >Польский</option>
+                                            <option value='ru' >Русский</option>
+                                            <option value='tr' >Турецкий</option>
+                                            <option value='fi' >Финский</option>
+                                            <option value='fr' >Французкий</option>
+                                            <option value='cs' >Чешский</option>
+                                            <option value='sv' >Шведский</option>
+                                            <option value='ja' >Японский</option>
+                                        </select>
+                                    </div>
+                                    <span class='tr-static-inf-2jk'>Перевод <span id='tr-info-2jk'>не выбрано</span></span>
+                                    <div class='tr-rem-2jk'>
+                                        <input type='checkbox' id='remcheck-lan-2jk'>
+                                        <label for='remcheck-lan-2jk'>Переводить всегда</label>
+                                    </div>
+                                    <a style='cursor: not-allowed; text-decoration: underline;' id='translate-all-2jk'>Перевести страницу целиком</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='-main-area-2jk'>
+                    <div id='-words-2jk'></div>
+                    <div class='-bottom-toolbar-2jk'>
+                        <div id='-audio-2jk'>
+                            <div class='audio-wrapper-2jk'>
+                                <div id='audio-pleyer-2jk' style='opacity: 0; z-index: -1; margin-top: 10px;'>
+                                    <div name='play' title='Проиграть' class='acbc-2jk audio-controls-2jk'></div>
+                                    <div name='pause' title='Пауза' style='display:none' class='acbc-2jk audio-controls-2jk'></div>
+                                    <div class='acbc-2jk audio-proges-control-2jk'>
+                                        <div id='audio-control-2jk'>
+                                            <div class='remote-range-2jk' title='Зажмите чтобы перемотать' >
+                                                <div id='audio-btn-2jk'><span id='audio-time-2jk'>0:00 / 0:00</span></div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div name='download' title='Скачать' class='-button-2jk download-audio-2jk mdown-2jk'></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='-text-todo-2jk'>
+                            <div class='-bottom-items-2jk'>
+                                <div class='-button-2jk mdown-2jk' title='Скопировать текст' name='text-copy'>
+                                    <span id='text-copy-info-2jk'>Скопировано</span>
+                                </div>
+                                <div class='-button-2jk' title='Воспроизвести'  name='voice'></div>
+                            </div>
+                            <div class='-button-2jk -button-res-2jk mdown-2jk' title='Свободное маштабирование' name='resize'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>

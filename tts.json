@@ -1,0 +1,297 @@
+{
+   "English":{
+      "code":"en",
+      "tts":[
+         {
+            "name":"US English Female",
+            "val":"usenglishfemale",
+            "type":"female"
+         },
+         {
+            "name":"US English Male",
+            "val":"usenglishmale",
+            "type":"male"
+         },
+         {
+            "name":"UK English Female",
+            "val":"ukenglishfemale",
+            "type":"female"
+         },
+         {
+            "name":"UK English Male",
+            "val":"ukenglishmale",
+            "type":"male"
+         },
+         {
+            "name":"Australian English Female",
+            "val":"auenglishfemale",
+            "type":"female"
+         },
+         {
+            "name":"Canadian English Female",
+            "val":"caenglishfemale",
+            "type":"female"
+         }
+      ]
+   },
+   
+   "Hungarian":{
+      "code":"hu",
+      "tts":[
+         {
+            "name":"Hungarian Female",
+            "val":"huhungarianfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Dutch":{
+      "code":"nl",
+      "tts":[
+         {
+            "name":"European Dutch Female",
+            "val":"eurdutchfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Danish":{
+      "code":"da",
+      "tts":[
+         {
+            "name":"European Danish Female",
+            "val":"eurdanishfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Spanish":{
+      "code":"es",
+      "tts":[
+         {
+            "name":"US Spanish Female",
+            "val":"usspanishfemale",
+            "type":"female"
+         },
+         {
+            "name":"US Spanish",
+            "val":"usspanishmale",
+            "type":"male"
+         },
+         {
+            "name":"European Spanish Female",
+            "val":"eurspanishfemale",
+            "type":"female"
+         },
+         {
+            "name":"European Spanish Male",
+            "val":"eurspanishmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Italian":{
+      "code":"it",
+      "tts":[
+         {
+            "name":"European Italian Female",
+            "val":"euritalianfemale",
+            "type":"female"
+         },
+         {
+            "name":"European Italian Male",
+            "val":"euritalianmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Catalan":{
+      "code":"ca",
+      "tts":[
+         {
+            "name":"European Catalan",
+            "val":"Female eurcatalanfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Chinese":{
+      "code":"zh",
+      "tts":[
+         {
+            "name":"Chinese Female",
+            "val":"chchinesefemale",
+            "type":"female"
+         },
+         {
+            "name":"Hong Kong Cantonese Female",
+            "val":"hkchinesefemale",
+            "type":"female"
+         },
+         {
+            "name":"Taiwan Chinese Female",
+            "val":"twchinesefemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Korean":{
+      "code":"ko",
+      "tts":[
+         {
+            "name":"Korean Female",
+            "val":"krkoreanfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Deutsch":{
+      "code":"de",
+      "tts":[
+         {
+            "name":"European German Female",
+            "val":"eurgermanfemale",
+            "type":"female"
+         },
+         {
+            "name":"European German Male",
+            "val":"eurgermanmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Norwegian":{
+      "code":"no",
+      "tts":[
+         {
+            "name":"European Norwegian Female",
+            "val":"eurnorwegianfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Portuguese":{
+      "code":"pt",
+      "tts":[
+         {
+            "name":"Brazilian Portuguese Female",
+            "val":"brportuguesefemale",
+            "type":"female"
+         },
+         {
+            "name":"European Portuguese Female",
+            "val":"eurportuguesefemale",
+            "type":"female"
+         },
+         {
+            "name":"European Portuguese Male",
+            "val":"eurportuguesemale"
+         }
+      ]
+   },
+   "Polish":{
+      "code":"pl",
+      "tts":[
+         {
+            "name":"European Polish Female",
+            "val":"eurpolishfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Russian":{
+      "code":"ru",
+      "tts":[
+         {
+            "name":"Russian Female",
+            "val":"rurussianfemale",
+            "type":"female"
+         },
+         {
+            "name":"Russian Male",
+            "val":"rurussianmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Turkish":{
+      "code":"tr",
+      "tts":[
+         {
+            "name":"European Turkish Female",
+            "val":"eurturkishfemale",
+            "type":"female"
+         },
+         {
+            "name":"European Turkish Male",
+            "val":"eurturkishmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Finnish":{
+      "code":"fi",
+      "tts":[
+         {
+            "name":"European Finnish",
+            "val":"Female eurfinnishfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "French":{
+      "code":"fr",
+      "tts":[
+         {
+            "name":"European French Female",
+            "val":"eurfrenchfemale",
+            "type":"female"
+         },
+         {
+            "name":"European French Male",
+            "val":"eurfrenchmale",
+            "type":"male"
+         },
+         {
+            "name":"Canadian French Female",
+            "val":"cafrenchfemale",
+            "type":"female"
+         },
+         {
+            "name":"Canadian French Male",
+            "val":"cafrenchmale",
+            "type":"male"
+         }
+      ]
+   },
+   "Czech":{
+      "code":"cs",
+      "tts":[
+         {
+            "name":"European Czech Female",
+            "val":"eurczechfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Swedish":{
+      "code":"sv",
+      "tts":[
+         {
+            "name":"Swedish Female",
+            "val":"swswedishfemale",
+            "type":"female"
+         }
+      ]
+   },
+   "Japanese":{
+      "code":"ja",
+      "tts":[
+         {
+            "name":"Japanese Female",
+            "val":"jpjapanesefemale",
+            "type":"female"
+         }
+      ]
+   }
+}

@@ -1,0 +1,52 @@
+{
+  "background": {
+      "scripts": ["scripts/background.js"]
+  },
+  "manifest_version": 2,
+  "name": "Asonic. Перевод и аудирование текста",
+  "version": "1.0",
+  "description": "Asonic переводит выделенный текст, имеет возможность озвучивать и сохранять результат в формате mp3 на любом языке.",
+  "icons": {
+    "512": "icons/asonic.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "Asonic.Wildcat2k21@gmail.com",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [ "style/main.css"],
+      "js": [
+          "lib/jquery.min.js",
+          "lib/tags.js",
+          "scripts/formInjector.js",
+          "scripts/icons.js",
+          "scripts/tab.js",
+          "scripts/page-options.js"
+          ]
+    }
+  ],
+
+  "browser_action": {
+      "default_icon": "icons/asonic.png",
+      "default_title": "tVoice",
+      "default_popup": "index.html"
+  },
+
+  "web_accessible_resources":[
+    "icons/asonic.png",
+    "main_form.html"
+  ]
+
+}

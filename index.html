@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>text-reader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style/popup.css">
+  <script type="text/javascript" src="lib/jquery.min.js"></script>
+</head>
+<body>
+  <div id="conteiner">
+      <div class="item tcontent">
+        <h3>Asonic - Перевод и аудирование текста</h3>
+      </div>
+<div class="item">
+<span>Функция <span title="автоматическое определение текста" class="atd-title" style="">ATD</span> </span>
+</div>
+<div class="item">
+  <input id="auto-text-detect" type="checkbox">
+</div>
+      <div class="item">
+        <span class="left">Язык</span>
+      </div>
+      <div class="item">
+        <select class="right" id="v-language">
+        </select>
+      </div>
+      <div class="item">
+        <span>Голос</span>
+      </div>
+      <div class="item">
+        <select class="right" id="voice">
+        </select>
+      </div>
+      <div class="item">
+        <span>Громкость</span>
+      </div>
+      <div class="item">
+        <input id="volume" class="right" type="range" min="0" max="1" step="0.01">
+      </div>
+      <div class="item bcontent">
+        <span>Дополнительно</span>
+          <svg id="settings" style="transform: rotate(0deg); opacity: 1;" width="30px" height="30px">
+            <use xlink:href="icons/settings.svg#settings"></use>
+          </svg>
+      </div>
+      <div class="item about">
+        <span style="font-size: 8pt; float: right; margin-right: 20px;">by <a href="https://github.com/wildcat2k21" style="color: #8a8a8a;">wildcat2k21</a></span>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+</body>
+</html>
